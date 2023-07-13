@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width:100%;
+    height:100%;
+}
+
+.container{
+    width:100%;
+    height:100%;
+    background-image: url(./images/ahmed-almakhzanji-_dbyCo3KsHQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#home-area{
+    position: relative;
+    width:500px;
+    height:500px;
+    background-color: red;
+}
+
+#person{
+    position: absolute;
+    width:100px;
+    height:100px;
+    background-color: black;
+    margin-left: 50%;
+}
